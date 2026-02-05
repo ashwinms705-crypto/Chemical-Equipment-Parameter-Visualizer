@@ -3,7 +3,7 @@
 A comprehensive full-stack visualization suite designed to analyze Time-Series data from chemical processing equipment. The system consists of a centralized **Django Backend** that serves data to both a polished **Desktop Application** (PyQt5) and a modern **Web Dashboard** (React).
 
 
-## 🚀 Features
+##  Features
 
 ### 🖥️ Desktop Application
 - **Native Experience**: Built with **PyQt5** for high-performance rendering on Windows.
@@ -15,19 +15,19 @@ A comprehensive full-stack visualization suite designed to analyze Time-Series d
 - **Robustness**: Handles network timeouts, file permission errors, and invalid data gracefully.
 - **Report Generation**: Generates and downloads detailed PDF reports with **localized timestamps** (IST).
 
-### 🌐 Web Dashboard
+###  Web Dashboard
 - **Modern UI**: Built with **React** and **Vite**, featuring a responsive dark mode design.
 - **Interactive Charts**: Uses **Chart.js v4** for dynamic web-based visualizations.
 - **Instant Feedback**: Real-time upload status and error handling.
 
-### 🔌 Backend API
+###  Backend API
 - **Django REST Framework**: robust API endpoints for data ingestion (`/upload/`), historical querying (`/history/`), and reporting (`/report/`).
 - **Data Processing**: Uses **Pandas** for efficient CSV parsing and statistical aggregation.
 - **PDF Engine**: Integrated **ReportLab** for server-side report generation.
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component | Key Technologies |
 |-----------|------------------|
@@ -37,7 +37,7 @@ A comprehensive full-stack visualization suite designed to analyze Time-Series d
 
 ---
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - **Python 3.9+**
@@ -96,7 +96,7 @@ npm run dev
 
 ---
 
-## 📖 Usage Guide
+##  Usage Guide
 
 1.  **Launch the Backend**: Ensure `python manage.py runserver` is running on port 8000.
 2.  **Start the Desktop App**: Run `main.py`.
@@ -112,7 +112,7 @@ npm run dev
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 chemical_visualizer/
@@ -131,5 +131,5 @@ chemical_visualizer/
 └── README.md               # You are here
 ```
 
-## 📄 License
+##  License
 This project is open source and available under the [MIT License](LICENSE).
