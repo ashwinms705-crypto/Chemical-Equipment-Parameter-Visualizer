@@ -2,8 +2,6 @@
 
 A comprehensive full-stack visualization suite designed to analyze Time-Series data from chemical processing equipment. The system consists of a centralized **Django Backend** that serves data to both a polished **Desktop Application** (PyQt5) and a modern **Web Dashboard** (React).
 
-![Dashboard Preview](./docs/dashboard_preview.png)
-*(Replace this path with a screenshot of your Desktop App)*
 
 ## 🚀 Features
 
