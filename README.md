@@ -5,7 +5,7 @@ A comprehensive full-stack visualization suite designed to analyze Time-Series d
 
 ##  Features
 
-### 🖥️ Desktop Application
+###  Desktop Application
 - **Native Experience**: Built with **PyQt5** for high-performance rendering on Windows.
 - **Advanced Plotting**: Utilizes **Matplotlib** with a custom dark-themed `GridSpec` layout.
     - **Trend Analysis**: Dual-axis line chart for Flow Rate vs. Pressure.
