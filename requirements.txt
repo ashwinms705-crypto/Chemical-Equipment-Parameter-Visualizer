@@ -7,6 +7,4 @@ gunicorn
 whitenoise
 dj-database-url
 psycopg2-binary
-pyqt5
-requests
-matplotlib
+
