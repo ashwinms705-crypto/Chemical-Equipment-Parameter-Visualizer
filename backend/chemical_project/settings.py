@@ -87,6 +87,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 if not DEBUG:
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    # Using simpler storage to prevent manifest errors on startup
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 CORS_ALLOW_ALL_ORIGINS = True # For now, allow all. In real prod, list Vercel URL.
